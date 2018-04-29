@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/5/25 16:33:38。
+     1>项目“F:\VS2012pro\HT-CubeMapRTT\HT-CubeMapRTT\HT-CubeMapRTT.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\VS2012\VC\bin\CL.exe /c /IG:\FBX\2016.1.2\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CRenderObjectCube.cpp main.cpp
+         main.cpp
+     1>f:\vs2012pro\ht-cubemaprtt\ht-cubemaprtt\main.cpp(236): warning C4244: “参数”: 从“double”转换到“FLOAT”，可能丢失数据
+         CRenderObjectCube.cpp
+     1>f:\vs2012pro\ht-cubemaprtt\ht-cubemaprtt\crenderobjectcube.cpp(28): warning C4101: “hr”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         G:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012pro\HT-CubeMapRTT\Debug\HT-CubeMapRTT.exe" /INCREMENTAL /NOLOGO "libfbxsdk-md.lib" "CEGUIBase-0_d.lib" "CEGUIDirect3D9Renderer-0_d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2012pro\HT-CubeMapRTT\Debug\HT-CubeMapRTT.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2012pro\HT-CubeMapRTT\Debug\HT-CubeMapRTT.lib" /MACHINE:X86 Debug\CBoard.obj
+         Debug\CRenderClass.obj
+         Debug\CRenderObjectCube.obj
+         Debug\main.obj
+         Debug\UI.obj
+         HT-CubeMapRTT.vcxproj -> F:\VS2012pro\HT-CubeMapRTT\Debug\HT-CubeMapRTT.exe
+       PostBuildEvent:
+         copy "E:\ce\cegui-0.8.5\bin\CEGUIDirect3D9Renderer-0_d.dll" "F:\VS2012pro\HT-CubeMapRTT\Debug\\"
+         copy "E:\ce\cegui-0.8.5\bin\CEGUIBase-0_d.dll" "F:\VS2012pro\HT-CubeMapRTT\Debug\\"
+         copy "E:\ce\cegui-0.8.5\bin\freetype_d.dll" "F:\VS2012pro\HT-CubeMapRTT\Debug\\"
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>已完成生成项目“F:\VS2012pro\HT-CubeMapRTT\HT-CubeMapRTT\HT-CubeMapRTT.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.14

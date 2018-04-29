@@ -1,0 +1,33 @@
+﻿生成启动时间为 2018/4/17 19:13:06。
+     1>项目“F:\VS2012pro\HT-D3DShadowMap\HT-D3DShadowMap\HT-D3DShadowMap.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\VS2012\VC\bin\CL.exe /c /IG:\FBX\2016.1.2\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CBoard.cpp CRenderClass.cpp main.cpp
+         main.cpp
+     1>f:\vs2012pro\ht-d3dshadowmap\ht-d3dshadowmap\main.cpp(180): warning C4244: “参数”: 从“double”转换到“FLOAT”，可能丢失数据
+         CRenderClass.cpp
+     1>f:\vs2012pro\ht-d3dshadowmap\ht-d3dshadowmap\crenderclass.cpp(99): warning C4101: “str”: 未引用的局部变量
+     1>f:\vs2012pro\ht-d3dshadowmap\ht-d3dshadowmap\crenderclass.cpp(185): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\vs2012pro\ht-d3dshadowmap\ht-d3dshadowmap\crenderclass.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+         CBoard.cpp
+     1>f:\vs2012pro\ht-d3dshadowmap\ht-d3dshadowmap\cboard.cpp(171): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\vs2012pro\ht-d3dshadowmap\ht-d3dshadowmap\cboard.cpp(162): warning C4101: “hr”: 未引用的局部变量
+         正在生成代码...
+       Link:
+         G:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012pro\HT-D3DShadowMap\Debug\HT-D3DShadowMap.exe" /INCREMENTAL /NOLOGO d3d11.lib d3dx11d.lib D3DCompiler.lib Effects11d.lib dxerr.lib libGLESv2.lib libEGL.lib Common.lib dxgi.lib dxguid.lib "libfbxsdk-md.lib" "CEGUIBase-0_d.lib" "CEGUIDirect3D9Renderer-0_d.lib" "CEGUIDirect3D11Renderer-0_d.lib" "CEGUIBase-0.lib" "CEGUIDirect3D11Renderer-0.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2012pro\HT-D3DShadowMap\Debug\HT-D3DShadowMap.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2012pro\HT-D3DShadowMap\Debug\HT-D3DShadowMap.lib" /MACHINE:X86 Debug\CBoard.obj
+         Debug\CRenderClass.obj
+         Debug\main.obj
+         Debug\UI.obj
+         HT-D3DShadowMap.vcxproj -> F:\VS2012pro\HT-D3DShadowMap\Debug\HT-D3DShadowMap.exe
+       PostBuildEvent:
+         copy "E:\ce\cegui-0.8.5\bin\CEGUIDirect3D9Renderer-0_d.dll" "F:\VS2012pro\HT-D3DShadowMap\Debug\\"
+         copy "E:\ce\cegui-0.8.5\bin\CEGUIBase-0_d.dll" "F:\VS2012pro\HT-D3DShadowMap\Debug\\"
+         copy "E:\ce\cegui-0.8.5\bin\freetype_d.dll" "F:\VS2012pro\HT-D3DShadowMap\Debug\\"
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>已完成生成项目“F:\VS2012pro\HT-D3DShadowMap\HT-D3DShadowMap\HT-D3DShadowMap.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.94

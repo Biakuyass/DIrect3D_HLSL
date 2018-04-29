@@ -1,0 +1,18 @@
+﻿生成启动时间为 2015/12/28 9:19:29。
+     1>项目“F:\VS2012pro\HT-D3DShadow\HT-D3DShadow\HT-D3DShadow.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\VS2012\VC\bin\CL.exe /c /IG:\FBX\2016.1.2\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\vs2012pro\ht-d3dshadow\ht-d3dshadow\main.cpp(170): warning C4244: “参数”: 从“double”转换到“FLOAT”，可能丢失数据
+     1>f:\vs2012pro\ht-d3dshadow\ht-d3dshadow\main.cpp(218): warning C4305: “参数”: 从“double”到“FLOAT”截断
+       Link:
+         G:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012pro\HT-D3DShadow\Debug\HT-D3DShadow.exe" /INCREMENTAL /NOLOGO "libfbxsdk-md.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2012pro\HT-D3DShadow\Debug\HT-D3DShadow.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2012pro\HT-D3DShadow\Debug\HT-D3DShadow.lib" /MACHINE:X86 Debug\CBoard.obj
+         Debug\CRenderClass.obj
+         Debug\main.obj
+         Debug\UI.obj
+         HT-D3DShadow.vcxproj -> F:\VS2012pro\HT-D3DShadow\Debug\HT-D3DShadow.exe
+     1>已完成生成项目“F:\VS2012pro\HT-D3DShadow\HT-D3DShadow\HT-D3DShadow.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.71

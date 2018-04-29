@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HT-D3DMTR", "HT-D3DMTR\HT-D3DMTR.vcxproj", "{FC0E6B54-8C6A-41B4-B421-C6042365C507}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC0E6B54-8C6A-41B4-B421-C6042365C507}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC0E6B54-8C6A-41B4-B421-C6042365C507}.Debug|Win32.Build.0 = Debug|Win32
+		{FC0E6B54-8C6A-41B4-B421-C6042365C507}.Release|Win32.ActiveCfg = Release|Win32
+		{FC0E6B54-8C6A-41B4-B421-C6042365C507}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

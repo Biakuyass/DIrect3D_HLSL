@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HT-D3DSSAO", "HT-D3DSSAO\HT-D3DSSAO.vcxproj", "{6A3A0B2C-F23E-467B-9BF2-A87356D2D3EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A3A0B2C-F23E-467B-9BF2-A87356D2D3EB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6A3A0B2C-F23E-467B-9BF2-A87356D2D3EB}.Debug|Win32.Build.0 = Debug|Win32
+		{6A3A0B2C-F23E-467B-9BF2-A87356D2D3EB}.Release|Win32.ActiveCfg = Release|Win32
+		{6A3A0B2C-F23E-467B-9BF2-A87356D2D3EB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

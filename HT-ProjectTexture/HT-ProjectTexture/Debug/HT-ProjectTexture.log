@@ -1,0 +1,30 @@
+﻿生成启动时间为 2016/3/10 17:31:34。
+     1>项目“F:\VS2012pro\HT-ProjectTexture\HT-ProjectTexture\HT-ProjectTexture.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\VS2012\VC\bin\CL.exe /c /IG:\FBX\2016.1.2\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CBoard.cpp CRenderClass.cpp main.cpp UI.cpp
+         UI.cpp
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\ui.cpp(109): warning C4060: switch 语句没有包含“case”或“default”标签
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\ui.cpp(82): warning C4101: “wtext”: 未引用的局部变量
+         main.cpp
+         CRenderClass.cpp
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\crenderclass.cpp(101): warning C4101: “LockRect”: 未引用的局部变量
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\crenderclass.cpp(102): warning C4101: “Desc”: 未引用的局部变量
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\crenderclass.cpp(126): warning C4101: “str”: 未引用的局部变量
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\crenderclass.cpp(200): warning C4018: “<”: 有符号/无符号不匹配
+         CBoard.cpp
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\cboard.cpp(171): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\cboard.cpp(162): warning C4101: “hr”: 未引用的局部变量
+         正在生成代码...
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\ui.cpp(33): warning C4715: “UI::OnD3D9CreateDevice”: 不是所有的控件路径都返回值
+     1>f:\vs2012pro\ht-projecttexture\ht-projecttexture\ui.cpp(48): warning C4715: “UI::OnD3D9ResetDevice”: 不是所有的控件路径都返回值
+       Link:
+         G:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012pro\HT-ProjectTexture\Debug\HT-ProjectTexture.exe" /INCREMENTAL /NOLOGO "libfbxsdk-md.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2012pro\HT-ProjectTexture\Debug\HT-ProjectTexture.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2012pro\HT-ProjectTexture\Debug\HT-ProjectTexture.lib" /MACHINE:X86 Debug\CBoard.obj
+         Debug\CRenderClass.obj
+         Debug\main.obj
+         Debug\UI.obj
+         HT-ProjectTexture.vcxproj -> F:\VS2012pro\HT-ProjectTexture\Debug\HT-ProjectTexture.exe
+     1>已完成生成项目“F:\VS2012pro\HT-ProjectTexture\HT-ProjectTexture\HT-ProjectTexture.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.24

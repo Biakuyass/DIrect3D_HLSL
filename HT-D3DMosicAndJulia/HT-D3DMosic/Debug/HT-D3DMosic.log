@@ -1,0 +1,39 @@
+﻿生成启动时间为 2015/11/19 14:12:26。
+     1>项目“F:\VS2012pro\HT-D3DMosicAndJulia\HT-D3DMosic\HT-D3DMosic.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\VS2012\VC\bin\CL.exe /c /IG:\FBX\2016.1.2\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt CBoard.cpp CRenderClass.cpp Dinput.cpp main.cpp UI.cpp
+         UI.cpp
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\ui.cpp(18): warning C4002: “D3DCOLOR_ARGB”宏的实参太多
+         main.cpp
+         c:\program files (x86)\windows kits\8.0\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\main.cpp(178): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\main.cpp(182): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\main.cpp(186): warning C4244: “-=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\main.cpp(190): warning C4244: “+=”: 从“double”转换到“float”，可能丢失数据
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\main.cpp(195): warning C4305: “*=”: 从“double”到“float”截断
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\main.cpp(199): warning C4305: “/=”: 从“double”到“float”截断
+         Dinput.cpp
+         c:\program files (x86)\windows kits\8.0\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         CRenderClass.cpp
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\crenderclass.cpp(99): warning C4101: “str”: 未引用的局部变量
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\crenderclass.cpp(198): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\crenderclass.cpp(225): warning C4018: “<”: 有符号/无符号不匹配
+         CBoard.cpp
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\cboard.cpp(171): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\cboard.cpp(162): warning C4101: “hr”: 未引用的局部变量
+         正在生成代码...
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\dinput.cpp(44): warning C4715: “DInput::Init”: 不是所有的控件路径都返回值
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\ui.cpp(33): warning C4715: “UI::OnD3D9CreateDevice”: 不是所有的控件路径都返回值
+     1>f:\vs2012pro\ht-d3dmosicandjulia\ht-d3dmosic\ui.cpp(48): warning C4715: “UI::OnD3D9ResetDevice”: 不是所有的控件路径都返回值
+       Link:
+         G:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012pro\HT-D3DMosicAndJulia\Debug\HT-D3DMosicAndJulia.exe" /INCREMENTAL /NOLOGO "libfbxsdk-md.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2012pro\HT-D3DMosicAndJulia\Debug\HT-D3DMosicAndJulia.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2012pro\HT-D3DMosicAndJulia\Debug\HT-D3DMosicAndJulia.lib" /MACHINE:X86 Debug\CBoard.obj
+         Debug\CRenderClass.obj
+         Debug\Dinput.obj
+         Debug\main.obj
+         Debug\UI.obj
+         HT-D3DMosic.vcxproj -> F:\VS2012pro\HT-D3DMosicAndJulia\Debug\HT-D3DMosicAndJulia.exe
+     1>已完成生成项目“F:\VS2012pro\HT-D3DMosicAndJulia\HT-D3DMosic\HT-D3DMosic.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.29

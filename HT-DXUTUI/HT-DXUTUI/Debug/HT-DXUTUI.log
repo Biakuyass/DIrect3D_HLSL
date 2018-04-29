@@ -1,0 +1,17 @@
+﻿生成启动时间为 2015/10/2 14:27:11。
+     1>项目“F:\VS2012pro\HT-DXUTUI\HT-DXUTUI\HT-DXUTUI.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         G:\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>f:\vs2012pro\ht-dxutui\ht-dxutui\main.cpp(94): warning C4002: “D3DCOLOR_ARGB”宏的实参太多
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\HT-DXUTUI.res" HT-DXUTUI.rc 
+       Link:
+         G:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\VS2012pro\HT-DXUTUI\Debug\HT-DXUTUI.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\VS2012pro\HT-DXUTUI\Debug\HT-DXUTUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\VS2012pro\HT-DXUTUI\Debug\HT-DXUTUI.lib" /MACHINE:X86 "Debug\HT-DXUTUI.res"
+         Debug\main.obj
+         HT-DXUTUI.vcxproj -> F:\VS2012pro\HT-DXUTUI\Debug\HT-DXUTUI.exe
+     1>已完成生成项目“F:\VS2012pro\HT-DXUTUI\HT-DXUTUI\HT-DXUTUI.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.45
